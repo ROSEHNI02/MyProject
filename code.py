@@ -51,5 +51,20 @@ while True:
         print("❌ Invalid choice! Please try again.")
 
 
+def fahrenheit_to_kelvin(fahrenheit):
+    """Converts Fahrenheit to Kelvin."""
+    print(f"Executing: Converting {fahrenheit}°F to Kelvin...")
+    return (fahrenheit - 32) * 5/9 + 273.15
+
+print("6. Fahrenheit to Kelvin")  # Add this in the menu
+
+# Inside the while loop, add this:
+elif choice == "6":
+    temp = float(input("Enter temperature in Fahrenheit: "))
+    result = fahrenheit_to_kelvin(temp)
+    print(f"✅ Result: {temp}°F = {result:.2f}K")
+
+
+
 
 
