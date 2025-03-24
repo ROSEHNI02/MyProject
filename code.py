@@ -25,6 +25,31 @@ print("3. Celsius to Kelvin")
 print("4. Kelvin to Celsius")
 print("5. Exit")
 
+while True:
+    choice = input("\nEnter your choice: ")
+
+    if choice == "1":
+        temp = float(input("Enter temperature in Celsius: "))
+        result = celsius_to_fahrenheit(temp)
+        print(f"✅ Result: {temp}°C = {result:.2f}°F")
+    elif choice == "2":
+        temp = float(input("Enter temperature in Fahrenheit: "))
+        result = fahrenheit_to_celsius(temp)
+        print(f"✅ Result: {temp}°F = {result:.2f}°C")
+    elif choice == "3":
+        temp = float(input("Enter temperature in Celsius: "))
+        result = celsius_to_kelvin(temp)
+        print(f"✅ Result: {temp}°C = {result:.2f}K")
+    elif choice == "4":
+        temp = float(input("Enter temperature in Kelvin: "))
+        result = kelvin_to_celsius(temp)
+        print(f"✅ Result: {temp}K = {result:.2f}°C")
+    elif choice == "5":
+        print("👋 Exiting Temperature Converter. Goodbye!")
+        break
+    else:
+        print("❌ Invalid choice! Please try again.")
+
 
 
 
