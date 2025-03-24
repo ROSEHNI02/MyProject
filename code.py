@@ -7,3 +7,8 @@ def fahrenheit_to_celsius(fahrenheit):
     """Converts Fahrenheit to Celsius."""
     print(f"Executing: Converting {fahrenheit}°F to Celsius...")
     return (fahrenheit - 32) * 5/9
+
+def celsius_to_kelvin(celsius):
+    """Converts Celsius to Kelvin."""
+    print(f"Executing: Converting {celsius}°C to Kelvin...")
+    return celsius + 273.15
