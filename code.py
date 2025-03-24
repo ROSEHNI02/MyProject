@@ -18,4 +18,13 @@ def kelvin_to_celsius(kelvin):
     print(f"Executing: Converting {kelvin}K to Celsius...")
     return kelvin - 273.15
 
+print("\n🌡️ Temperature Converter 🌡️")
+print("1. Celsius to Fahrenheit")
+print("2. Fahrenheit to Celsius")
+print("3. Celsius to Kelvin")
+print("4. Kelvin to Celsius")
+print("5. Exit")
+
+
+
 
