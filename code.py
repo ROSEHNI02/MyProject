@@ -12,3 +12,10 @@ def celsius_to_kelvin(celsius):
     """Converts Celsius to Kelvin."""
     print(f"Executing: Converting {celsius}°C to Kelvin...")
     return celsius + 273.15
+
+def kelvin_to_celsius(kelvin):
+    """Converts Kelvin to Celsius."""
+    print(f"Executing: Converting {kelvin}K to Celsius...")
+    return kelvin - 273.15
+
+
